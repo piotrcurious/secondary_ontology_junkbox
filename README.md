@@ -168,7 +168,7 @@ I hope this code helps you with your task. Please let me know if you have any fe
 : https://en.wikipedia.org/wiki/Silhouette_(clustering)
 : https://scikit-learn.org/stable/
 
-
+```
 # Define a function to create secondary ontologies from primary neural network models
 def create_secondary_ontology(image_paths, layer, iterations, step, language, model_name):
   # Import the pytesseract, transformers, torch, spacy, and editdistance libraries
@@ -364,3 +364,4 @@ def create_secondary_ontology(image_paths, layer, iterations, step, language, mo
     # Append the score to the ambiguity list
     ambiguity_scores.append(ambiguity_score)
   return secondary_images, validity_scores, ambiguity_scores
+```
